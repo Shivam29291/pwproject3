@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    background-color:#000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 31px 83px;
+    height: 90px;
+}
+.logo{
+    width: 95px;
+    height: 35px;
+}
+.grow-list{
+    flex-grow: 1;
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    color: #ffffff;
+    font-family: "poppins";
+    list-style: none;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 64px;
+}
+.logo,.list{
+    cursor: pointer;
+}
+.small-button{
+    background-color:  #ba0cc5;
+    padding: 7px 28px;
+    border-radius: 6px;
+    border:none ;
+    font-style: normal;
+    font-family: "poppins";
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.hero-aria{
+    background-image: url("../pwpic/bg.png");
+    background-size:cover;
+    text-align: center;
+    height: 100vh;
+}
+.heading{
+    font-size:  80px; ;
+    font-weight:700;
+    font-family: "poppins";
+    font-style: normal;
+    color: #fff;
+    padding-top: 172px;
+    max-width: 846px;
+    line-height: 98px;
+    text-align: center;
+    margin: 0 auto;
+}
+.paragraph{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #fff;
+}
+.button-large {
+    background: #ba0cc5;
+    border-radius: 11.2308px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.9487px;
+    line-height: 45px;
+    color: #ffffff;
+    border: none;
+    padding: 14px 22px;
+    margin-top: 64px;
+    cursor: pointer;
+  }
